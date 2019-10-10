@@ -2,7 +2,7 @@
 <%@ page import="java.util.Date" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%!
-SimpleDateFormat sdf=new SimpleDateFormat("yyyy年mm月dd日");
+SimpleDateFormat sdf=new SimpleDateFormat("yyyy年MM月dd日");
 String s=sdf.format(new Date());
 
 %>
